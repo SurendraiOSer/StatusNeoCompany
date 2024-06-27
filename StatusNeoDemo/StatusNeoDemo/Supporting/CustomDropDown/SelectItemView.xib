@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SelectItemView" customModule="StstusNeoDemo" customModuleProvider="target">
+            <connections>
+                <outlet property="tableView" destination="VTp-0x-iUx" id="uRV-iS-y96"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="345" height="755"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QzK-7c-7Vr">
+                    <rect key="frame" x="0.0" y="0.0" width="345" height="755"/>
+                    <subviews>
+                        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="VTp-0x-iUx">
+                            <rect key="frame" x="0.0" y="0.0" width="345" height="755"/>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <connections>
+                                <outlet property="dataSource" destination="-1" id="tu1-YW-Ge0"/>
+                                <outlet property="delegate" destination="-1" id="mlg-MT-785"/>
+                            </connections>
+                        </tableView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="VTp-0x-iUx" firstAttribute="top" secondItem="QzK-7c-7Vr" secondAttribute="top" id="D9F-9S-1y4"/>
+                        <constraint firstAttribute="bottom" secondItem="VTp-0x-iUx" secondAttribute="bottom" id="IIz-1W-KGf"/>
+                        <constraint firstItem="VTp-0x-iUx" firstAttribute="leading" secondItem="QzK-7c-7Vr" secondAttribute="leading" id="XnZ-d7-Xq7"/>
+                        <constraint firstAttribute="trailing" secondItem="VTp-0x-iUx" secondAttribute="trailing" id="gqb-NY-rZw"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="QzK-7c-7Vr" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="CgN-Fx-hGB"/>
+                <constraint firstAttribute="trailing" secondItem="QzK-7c-7Vr" secondAttribute="trailing" id="Wbw-Qr-lOx"/>
+                <constraint firstAttribute="bottom" secondItem="QzK-7c-7Vr" secondAttribute="bottom" id="kWo-48-Ipc"/>
+                <constraint firstItem="QzK-7c-7Vr" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="phv-4g-zfa"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="110.86956521739131" y="84.709821428571431"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="secondarySystemBackgroundColor">
+            <color red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

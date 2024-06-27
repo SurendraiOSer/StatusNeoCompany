@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "DogBreed.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

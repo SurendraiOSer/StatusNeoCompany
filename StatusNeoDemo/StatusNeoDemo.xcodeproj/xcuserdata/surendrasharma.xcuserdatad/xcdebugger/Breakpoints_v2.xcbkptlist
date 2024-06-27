@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "4AF223C1-9674-4AA1-8906-D664D9FC6DA9"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8DBCCB04-F413-44E5-A201-14A9179309D7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "StstusNeoDemo/VIewControllers/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0837447F-6B39-454B-8745-FDBAF7978816"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "StstusNeoDemo/VIewControllers/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0837447F-6B39-454B-8745-FDBAF7978816 - 9269064b74ba5e6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "StstusNeoDemo.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "StstusNeoDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/surendrasharma/Documents/MyBitbuket/InterviewDemos/StstusNeoDemo/StstusNeoDemo/VIewControllers/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "0837447F-6B39-454B-8745-FDBAF7978816 - 4c21aba63c0db92d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool, Swift.String, Swift.Array&lt;StstusNeoDemo.BreedModel&gt;) -&gt; () in StstusNeoDemo.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "StstusNeoDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/surendrasharma/Documents/MyBitbuket/InterviewDemos/StstusNeoDemo/StstusNeoDemo/VIewControllers/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "84">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1F653A0B-EFE5-42A2-B093-7A60A9E4D7E5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "StstusNeoDemo/VIewControllers/DogByBreedListVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
+            landmarkName = "collectionView(_:layout:sizeForItemAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1F653A0B-EFE5-42A2-B093-7A60A9E4D7E5 - f5e08f4e28056201"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "StstusNeoDemo.DogByBreedListVC.collectionView(_: __C.UICollectionView, layout: __C.UICollectionViewLayout, sizeForItemAt: Foundation.IndexPath) -&gt; __C.CGSize"
+                  moduleName = "StstusNeoDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/surendrasharma/Documents/MyBitbuket/InterviewDemos/StstusNeoDemo/StstusNeoDemo/VIewControllers/DogByBreedListVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "268">
+               </Location>
+               <Location
+                  uuid = "1F653A0B-EFE5-42A2-B093-7A60A9E4D7E5 - f5e08f4e28056412"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "StstusNeoDemo.DogByBreedListVC.collectionView(_: __C.UICollectionView, layout: __C.UICollectionViewLayout, sizeForItemAt: Foundation.IndexPath) -&gt; __C.CGSize"
+                  moduleName = "StstusNeoDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/surendrasharma/Documents/MyBitbuket/InterviewDemos/StstusNeoDemo/StstusNeoDemo/VIewControllers/DogByBreedListVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "76"
+                  endingLineNumber = "76"
+                  offsetFromSymbolStart = "260">
+               </Location>
+               <Location
+                  uuid = "1F653A0B-EFE5-42A2-B093-7A60A9E4D7E5 - f5e08f4e2805679e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "StstusNeoDemo.DogByBreedListVC.collectionView(_: __C.UICollectionView, layout: __C.UICollectionViewLayout, sizeForItemAt: Foundation.IndexPath) -&gt; __C.CGSize"
+                  moduleName = "StstusNeoDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/surendrasharma/Documents/MyBitbuket/InterviewDemos/StstusNeoDemo/StstusNeoDemo/VIewControllers/DogByBreedListVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "80"
+                  endingLineNumber = "80"
+                  offsetFromSymbolStart = "208">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C6B4C045-8DB1-4DBD-A874-00E1BEABEE8E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "StstusNeoDemo/VIewControllers/FavDogByBreedListVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "fecthDataFromLocal(breenName:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "957FFE6A-2DF5-4F45-B5C7-0FDBD31D61B4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "StstusNeoDemo/VIewControllers/FavDogByBreedListVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "fecthDataFromLocal(breenName:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
